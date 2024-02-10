@@ -1,13 +1,34 @@
 {
   
   "name": "tesr",
+  
   "version": "1.0.0",
+  
   "description": "",
+  
   "main": "index.js",
+  
   "scripts": {
-    "start": "node index.js",
-    "test": "jest --reporters=default --reporters=jest-junit --outputFile=./rapports/test-results.xml --json"
+  
+    
+  "start": "node index.js",
+  
+    
+  "test": "jest --reporters=default --reporters=jest-junit --outputFile=./rapports/test-results.xml --json"
+  
   },
+  
   "author": "",
-  "license": "ISC"
+  
+  "license": "ISC",
+  
+  "devDependencies": {
+  
+    
+  "jest": "^29.7.0",
+  
+    
+  "jest-junit": "^16.0.0"
+  
+  }
 }
